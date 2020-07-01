@@ -1,0 +1,2 @@
+=> O Python é/possui:
+    -> Caracteristica de tipagem dinâmica de dados. 

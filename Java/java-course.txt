@@ -1,0 +1,12 @@
+→Basic concepts
+→Variables and Data Types
+→Conditionals
+→Loops
+→Reference types
+→Arrays
+→Funcitional Programming
+→Threads and Concurrency
+→Introduction to Exception Handling
+→Files and Directories
+
+https://www.udemy.com/course/java-programming-tutorial-for-beginners/

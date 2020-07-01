@@ -1,0 +1,23 @@
+Os estudos se darão progressivamente nas seguintes linguagens:
+
+> python
+> c
+> c++
+> c#
+> java
+> ruby
+> js
+> kotlin
+> etc
+
+Os seguintes tópicos serão estudados com variações de acordo com cada linguagem:
+
+<> hello world
+<> variáveis
+<> input e output
+<> operações matemáticas
+<> funções
+<> array
+<> matriz
+<> estrutura de dados
+<> alguma aplicação com banco de dados

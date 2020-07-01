@@ -1,0 +1,12 @@
+→Basic concepts
+→Strings and Variables
+→Numbers and Math
+→Booleans and Conditionals
+→Functions
+→Lists
+→Dictionaries
+→Tuples
+→Files
+→Modules
+
+https://www.udemy.com/course/python-programming-projects/
