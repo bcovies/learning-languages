@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+</head>
+
+<body>
+    <form>
+        <label for="A1">Nota A1:</label><br>
+        <input type="number" step=".1" id="A1" name="A1"><br>
+
+        <label for="A2">Nota A2:</label><br>
+        <input type="number" step=".1" id="A2" name="A2"><br>
+
+        <label for="A3">Nota A3:</label><br>
+        <input type="number" step=".1" id="A3" name="A3"><br>
+
+        <button type="button" onclick="media()"> Calcular média</button>
+        <input type="reset">
+        
+        <p id="resultado"></p>
+
+    </form>
+
+    <script type="text/javascript">
+
+        function media() {
+            var A1 = parseFloat(document.getElementById("A1").value);
+            var A2 = parseFloat(document.getElementById("A2").value);
+            var A3 = parseFloat(document.getElementById("A3").value);
+
+            var media_notas = (A1 + A2 + A3) / 3;
+
+            if (media_notas >= 6) {
+                var str = "Sua nota foi: " + media_notas + " aprovado!";
+                var result = str.fontcolor("green");
+                document.getElementById("resultado").innerHTML = result;
+                return media_notas;
+            }
+            else {
+                var str = "Sua nota foi: " + media_notas + " reprovado! =(";
+                var result = str.fontcolor("red");
+                document.getElementById("resultado").innerHTML = result;
+                return media_notas;
+            }
+        }
+    </script>
+</body>
+
+</html>

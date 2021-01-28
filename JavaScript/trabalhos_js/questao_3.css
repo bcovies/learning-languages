@@ -1,0 +1,44 @@
+.d0{
+    display: flex;
+    flex-direction: row;
+}
+.d1{
+    color: red;
+    padding: 10px;
+}
+.d2{
+    color: blue;
+    padding: 10px;
+}
+.d3{
+    color: aqua;
+    padding: 10px;
+}
+.d4{
+    color: black;
+    padding: 10px;
+}
+.d5{
+    color: blueviolet;
+    padding: 10px;
+}
+.d6{
+    color: burlywood;
+    padding: 10px;
+}
+.d7{
+    color: coral;
+    padding: 10px;
+}
+.d8{
+    color: darkblue;
+    padding: 10px;
+}
+.d9{
+    color: darkmagenta;
+    padding: 10px;
+}
+.d10{
+    color: olive;
+    padding: 10px;
+}

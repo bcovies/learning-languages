@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tabuadas</title>
+</head>
+
+<body>
+    <script>
+        function tabuada() {
+            for (numero = 2; numero <= 10; numero++) {
+                var resposta = document.getElementById('resposta' + numero);
+                var tabuada = '';
+                for (var contagem = 1; contagem <= 10; contagem++)
+                    tabuada += numero + " x " + contagem + " = " +
+                        numero * contagem + "<br />";
+                resposta.innerHTML = tabuada;
+            }
+        }
+        function hideShow() {
+            var x = document.getElementById("d0");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    
+    
+    <button onclick="tabuada()">Exibir</button><br />
+    <button onclick="hideShow()">Mostrar/Esconder</button><br />
+    <div class="d0">
+
+        <div class="d2">
+            Tabuada de 2: <br />
+            <div id='resposta2' style='display:inline'></div>
+        </div>
+
+        <div class="d3">
+            Tabuada de 3: <br />
+            <div id='resposta3' style='display:inline'></div>
+        </div>
+
+        <div class="d4">
+            Tabuada de 4: <br />
+            <div id='resposta4' style='display:inline'></div>
+        </div>
+
+        <div class="d5">
+            Tabuada de 5: <br />
+            <div id='resposta5' style='display:inline'></div>
+        </div>
+
+        <div class="d6">
+            Tabuada de 6: <br />
+            <div id='resposta6' style='display:inline'></div>
+        </div>
+
+        <div class="d7">
+            Tabuada de 7: <br />
+            <div id='resposta7' style='display:inline'></div>
+        </div>
+
+        <div class="d8">
+            Tabuada de 8: <br />
+            <div id='resposta8' style='display:inline'></div>
+        </div>
+
+        <div class="d9">
+            Tabuada de 9: <br />
+            <div id='resposta9' style='display:inline'></div>
+        </div>
+
+        <div class="d10">
+            Tabuada de 10: <br />
+            <div id='resposta10' style='display:inline'></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+
+</body>
+
+</html>

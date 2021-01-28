@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+
+<body>
+    <form>
+        <label for="numero">Número:</label><br>
+        <input type="number" id="numero" name="numero"><br>
+
+
+        <button type="button" onclick="mostra_resultado()">Calcula Fatorial</button>
+
+       
+        <input type="reset">
+
+        <p id="resultado">teste</p>
+
+    </form>
+
+    <script type="text/javascript">
+    
+
+    function calcula(){
+            var valor  = parseFloat(document.getElementById("numero").value);
+            if (valor < 0) {
+            } else if ((valor == 0) || (valor == 1)) {
+                return 1;
+            } else {
+                var acumula = 1;
+                for (x = valor; x > 1; x--) {
+                    acumula = acumula * x;
+                }
+                return acumula;
+            }
+           
+        }
+
+        function mostra_resultado(){
+            var x = calcula();
+            document.getElementById("resultado").innerHTML = x;
+        }
+
+        
+    
+       
+    </script>
+</body>
+
+</html>
