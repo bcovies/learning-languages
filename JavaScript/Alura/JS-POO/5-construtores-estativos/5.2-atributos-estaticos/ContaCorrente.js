@@ -5,6 +5,10 @@ export class ContaCorrente {
   _saldo = 0;
   _cliente;
 
+  constructor(cliente, agencia) {
+    this.agencia = agencia;
+    this.cliente = cliente;
+  }
   get saldo() {
     return this._saldo;
   }
